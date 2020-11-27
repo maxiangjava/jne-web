@@ -1,0 +1,125 @@
+body{
+    font-size: 0.9em;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+
+.icon-button{
+    font-size: 1.2em;
+    margin-left: 5px;
+    padding: 5px;
+}
+.icon-button:hover{
+    background-color: #efebeb;
+    cursor:pointer
+}
+
+/*------------------------------------内容盒子（分左盒子和右盒子）样式------------------------------------*/
+
+.main{
+    margin-left: 10px;
+}
+
+.content-left-right{
+    display:flex;
+    height: 100%;
+    width: 100%
+}
+
+
+/*------------------------------------表格盒子样式------------------------------------*/
+.table-box{
+    width: calc(86vw - 20px)
+}
+
+.table-box-right{
+    width: calc(72vw - 30px);
+    margin-left: 10px;
+}
+/*------------------------------------表格盒子样式------------------------------------*/
+
+/*------------------------------------左边组织样式------------------------------------*/
+.left-box{
+    width: 14vw;
+    height: 91vh;
+    border-right: 2px solid #ebebeb;
+}
+/*------------------------------------左边组织样式------------------------------------*/
+
+/*------------------------------------右边内容样式------------------------------------*/
+.right-box{
+    width: calc(72vw - 10px);
+    height: 91vh;
+}
+/*------------------------------------右边内容样式------------------------------------*/
+
+/*------------------------------------内容盒子（分左盒子和右盒子）样式------------------------------------*/
+
+
+
+/*------------------------------------操作盒子样式------------------------------------*/
+.operate{
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.operate-box{
+    width: calc(72vw - 10px)
+}
+/*------------------------------------操作盒子样式------------------------------------*/
+
+
+/*element-ui样式*/
+
+.el-menu-vertical-left{
+    background-image: linear-gradient(-20deg, #4e4376 0%, #2b5876 100%)!important;
+}
+.el-menu--inline{
+    background-image: linear-gradient(-20deg, #2b5876 0%, #2b5876 100%)!important;
+}
+.el-menu-item{
+    min-width: 150px !important;
+}
+
+[role="menuitem"] .is-active{
+    background-color: #4e4376 !important;
+}
+
+.el-menu-item:hover {
+    background-color: #424d73 !important;
+}
+.el-submenu__title:hover{
+    background-color: #424d73 !important;
+}
+
+.avatar-uploader .el-upload {
+    border: 1px dashed #d9d9d9;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+    border-color: #409EFF;
+}
+.avatar-uploader-icon {
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+.avatar {
+    width: 178px;
+    height: 178px;
+    display: block;
+}
+
+.custom-tree-node {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-right: 8px;
+}
